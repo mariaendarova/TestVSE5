@@ -21,28 +21,25 @@
   "WP8PublisherID": "{5e9a20dc-9a6e-4951-b773-084f56faef48}",
   "WP8ProductID": "{0613d0fb-0d00-4726-87f3-061cd7e44eab}",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.2.0",
+  "FrameworkVersion": "3.0.0",
   "CorePlugins": [
-    "com.telerik.Cordova-MobileTestingExtension",
-    "com.telerik.plugin.eqatecanalytics",
     "org.apache.cordova.battery-status",
     "org.apache.cordova.camera",
+    "org.apache.cordova.media-capture",
     "org.apache.cordova.console",
     "org.apache.cordova.contacts",
     "org.apache.cordova.device",
     "org.apache.cordova.device-motion",
     "org.apache.cordova.device-orientation",
-    "org.apache.cordova.dialogs",
     "org.apache.cordova.file",
     "org.apache.cordova.file-transfer",
-    "org.apache.cordova.geolocation",
     "org.apache.cordova.globalization",
     "org.apache.cordova.inappbrowser",
-    "org.apache.cordova.media",
-    "org.apache.cordova.media-capture",
+    "org.apache.cordova.AudioHandler",
     "org.apache.cordova.network-information",
     "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar",
+    "com.telerik.plugin.eqatecanalytics",
+    "com.telerik.Cordova-MobileTestingExtension",
     "org.apache.cordova.vibration"
   ],
   "AndroidPermissions": [
@@ -66,7 +63,6 @@
     "android.permission.WRITE_EXTERNAL_STORAGE"
   ],
   "DeviceOrientations": [
-    "Portrait",
     "Landscape"
   ],
   "AndroidHardwareAcceleration": "false",
@@ -76,5 +72,6 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "Framework": "Cordova"
+  "Framework": "Cordova",
+  "TemplateAppName": ""
 }
